@@ -2,7 +2,7 @@
 # Face Mask Detection Project
 
 <p align="center">
-  <img src="/img/face_mask.png" alt="Example Image" height="200" width="400" style="vertical-align:middle;"/>
+  <img src="img/face_mask.png" alt="Example Image" height="200" width="400" style="vertical-align:middle;"/>
 </p>
 
 ## Project Overview 🎯
