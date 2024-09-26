@@ -2,7 +2,7 @@
 # Face Mask Detection Project
 
 <p align="center">
-  <img src="/img/face_mask.png" alt="Example Image" height="200" width="400" style="vertical-align:middle;"/>
+  <img src="/img/face_mask_.png" alt="Example Image" height="200" width="400" style="vertical-align:middle;"/>
 </p>
 
 ## Project Overview 🎯
@@ -16,6 +16,8 @@ This project aims to detect whether a person is wearing a face mask or not using
   - **Without Mask**
 
 ## Model Architecture 🧠
+
+![Model Summary](img/model_summary.png) 
 
 - **Face Detection**: MTCNN (Multi-Task Cascaded Convolutional Networks) is used to detect faces in images.
 - **Mask Detection**: MobileNet, a lightweight deep neural network architecture, is used as the base model for classifying whether a detected face is masked or unmasked.
@@ -33,6 +35,15 @@ The model's accuracy and loss during training are recorded and can be visualized
   <img src="/img/Accuracy.png" alt="Real Image" width="400" />
   <img src="/img/Loss.png" alt="AI generated Image" width="400" />
 </p>
+
+The model was evaluated using several key metrics:
+
+- **Validation Accuracy**: `99.45%`
+- **Validation Loss**: `0.0568`
+- **Validation Precision**: `99.53%`
+- **Validation Recall**: `99.37%`
+
+These metrics highlight the model's ability to accurately classify toxic comments, with high precision and recall.
 
 ### Usefulness of Project 🚀
 
